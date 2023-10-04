@@ -7,6 +7,15 @@ app_description = "Vendor Application"
 app_email = "admin@gmail.com"
 app_license = "MIT"
 
+fixtures = [
+	"Vendor Form",
+	"Department List",
+	"Company List",
+	"Plants List",
+	"Material",
+	"Employee"
+]
+
 # Includes in <head>
 # ------------------
 

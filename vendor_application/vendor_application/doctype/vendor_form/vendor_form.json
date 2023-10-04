@@ -58,8 +58,7 @@
   "required_date",
   "column_break_h4asg",
   "last_financial_year",
-  "date",
-  "status"
+  "date"
  ],
  "fields": [
   {
@@ -270,6 +269,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "bold": 1,
    "fieldname": "currency",
    "fieldtype": "Link",
    "label": "Currency",
@@ -348,17 +348,12 @@
    "fieldtype": "Date",
    "label": "Valid Date",
    "reqd": 1
-  },
-  {
-   "fieldname": "status",
-   "fieldtype": "Data",
-   "label": "Status"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-09-14 11:36:12.416132",
+ "modified": "2023-09-15 12:36:50.723912",
  "modified_by": "Administrator",
  "module": "Vendor Application",
  "name": "Vendor Form",
@@ -367,8 +362,6 @@
  "owner": "Administrator",
  "permissions": [
   {
-   "amend": 1,
-   "cancel": 1,
    "create": 1,
    "delete": 1,
    "email": 1,
@@ -376,9 +369,8 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Website Manager",
+   "role": "Admin Level 1",
    "share": 1,
-   "submit": 1,
    "write": 1
   },
   {
@@ -386,9 +378,10 @@
    "delete": 1,
    "email": 1,
    "export": 1,
+   "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Customer",
+   "role": "Admin Level 2",
    "share": 1,
    "write": 1
   },
@@ -402,7 +395,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "System Manager",
+   "role": "Admin Level 3",
    "share": 1,
    "submit": 1,
    "write": 1

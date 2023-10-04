@@ -111,22 +111,20 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-14 11:37:00.972848",
+ "modified": "2023-09-14 17:35:46.745831",
  "modified_by": "Administrator",
  "module": "Vendor Application",
- "name": "Department List",
+ "name": "Department",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
-   "create": 1,
-   "delete": 1,
    "email": 1,
    "export": 1,
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "System Manager",
+   "role": "Admin Level 1",
    "share": 1,
    "write": 1
   },
@@ -138,7 +136,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Customer",
+   "role": "Admin Level 2",
    "share": 1,
    "write": 1
   },
@@ -150,7 +148,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Website Manager",
+   "role": "Admin Level 3",
    "share": 1,
    "write": 1
   }
